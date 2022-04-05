@@ -1,3 +1,7 @@
 .homepage{
     color:brown
 }
+.homepage img{width: 400px;
+height: 400px;
+float: right;
+margin-top: 1px;}

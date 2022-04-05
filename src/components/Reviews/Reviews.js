@@ -5,7 +5,7 @@ const Reviews = () => {
     console.log(reviews);
     useEffect(()=>{
         fetch('data.jason')
-        .then(res=>res.jason())
+        .then(res=>res.json())
         .then(data=>setReviews(data));
     },[])
     return (

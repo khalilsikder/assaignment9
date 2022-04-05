@@ -7,13 +7,11 @@ const Home = () => {
             <h2>it's a home page</h2>
             <p>i am here.</p>
             <button>click me</button>
-            <div>
-            https://i.ibb.co/GJkmkKB/pexels-format-1029757.jpg 
+            <div className='show-image'>
+           <img src="https://i.ibb.co/gPLVqXQ/pexels-karsten-madsen-18105.jpg" alt="" />
             </div>
             <div>
                 <h3>Customer Review</h3>
-            </div>
-            <div>
                 <button>see all review</button>
             </div>
         </div> 

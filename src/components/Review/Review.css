@@ -1,0 +1,6 @@
+.image-iteam img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
