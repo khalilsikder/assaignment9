@@ -9,7 +9,7 @@ const Reviews = () => {
         .then(data=>setReviews(data));
     },[])
     return (
-        <div>
+        <div className='image-iteam'>
             <p><small>{reviews.length}</small></p>
             {
                 reviews.map(review=><Review key={review.id} review={review}></Review>)

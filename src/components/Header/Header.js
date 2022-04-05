@@ -5,7 +5,7 @@ const Header = () => {
     return (
             <nav className='header'>
                 <CustomLink to='/'>Home</CustomLink>
-                <CustomLink to='Reviews'>Reviews</CustomLink>
+                <CustomLink to='Review'>Review</CustomLink>
                 <CustomLink to='Dashboard'>Dashboard</CustomLink>
                 <CustomLink to='Blogs'>Blogs</CustomLink>
                 <CustomLink to='About'>About</CustomLink>   
