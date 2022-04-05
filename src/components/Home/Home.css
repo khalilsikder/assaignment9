@@ -1,4 +1,5 @@
-.homepage{
+.homepage{ display: grid;
+    grid-template-columns: auto auto auto;
     color:brown;
 }
 .homepage h2:hover{font-size: 50px;

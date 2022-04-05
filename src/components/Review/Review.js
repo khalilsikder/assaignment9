@@ -15,12 +15,12 @@ const Review = (props) => {
     return (
         <div className='image-iteam'>
             <div>
-            <img src={img} alt="" />
+                <img src={img} alt="" />
             </div>
-            <div>
-            <h2>name:{name}</h2>
-            <p>price:${price}</p>
-            <button onClick={showReviewDetail}>{name} id:{id}</button>
+            <div className='card-iteam'>
+              <h2>name:{name}</h2>
+               <p>price:${price}</p>
+               <button onClick={showReviewDetail}>{name} id:{id}</button>
             </div>
             
         </div>
