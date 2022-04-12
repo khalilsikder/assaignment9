@@ -3,15 +3,19 @@
     color:brown;
 }
 .homepage img{width: 400px;
-height: 400px;}
+height: 350px;}
 
 .homepage button{
     background-color: aqua;
     border: 4px solid yellow;
     border-radius: 10px;
 }
-.homepage button:hover{background-color: crimson;}
-.review{margin-top: 150px;}
-.reviewsall{margin-top: 150px;}
+.homepage button:hover{background-color:mediumpurple;}
+.review{
+    width: 200px;
+    height: 200px;
+}
+
+
 
 

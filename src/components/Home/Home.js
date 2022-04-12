@@ -1,19 +1,32 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Review from '../Review/Review';
 import './Home.css'
 const Home = () => {
+
+    const[reviews,setReviews]=useState([])
+    console.log(reviews);
+    useEffect(()=>{
+        fetch('data.json')
+        .then(res=>res.json())
+        .then(data=>setReviews(data));
+    },[])
+
     return (
         <div className='homepage'>
             <div className='first-div'>
             <h1>World's fancy Laptop</h1>
               
             <p>Here are sone fancy laptop available.you can choose any of them.<br/>if you buy one more then get big discount and if buy one get one gift completely free.</p>
-            <button>smooth tuch</button>
+            <button className='first-button'>smooth tuch</button>
             <div className='review'>
-                <button>Reviews(3)</button>
+                
+                {
+                reviews.slice(0,3).map(review=><Review key={review.id} review={review}></Review>)
+            }
                 
             </div>
-            <div className='reviewsall'>
-                <button>reviews</button>
+            <div>
+                reviewsall
             </div>
             </div>
             
