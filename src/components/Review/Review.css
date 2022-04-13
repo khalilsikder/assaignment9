@@ -1,9 +1,4 @@
-.image-iteam{
-    background-color: gray;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 25px 10px 10px 10px;
-}
+
 
 
 .image-iteam img{
