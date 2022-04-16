@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Row } from 'react-bootstrap';
 import Review from '../Review/Review';
 const Reviews = () => {
     const[reviews,setReviews]=useState([])
@@ -10,13 +11,13 @@ const Reviews = () => {
     },[])
     return (
         <><p><small>Totall review: {reviews.length}</small></p>
-        <div className='image-iteam'>
+        
             
-            {
+            <Row md={3}>{
                 reviews.map(review=><Review key={review.id} review={review}></Review>)
             }
-            
-        </div> </>
+            </Row>
+         </>
         
     );
 };

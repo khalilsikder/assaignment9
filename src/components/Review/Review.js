@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardGroup } from 'react-bootstrap';
+import { Card, CardGroup, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import './Review.css'
 
@@ -14,24 +14,25 @@ const Review = (props) => {
 
 
     return (
-        <div className='image-iteam'>
+        
 
-<CardGroup>
-  <Card className='image-iteam w-200px h-200px'>
-    <Card.Img variant="top" src={img} alt=''/>
-    <Card.Body>
-      <Card.Title>name:{name}   
-       </Card.Title>
-       <p>price:${price}</p>
-       
-      <Card.Text>
-      <button onClick={showReviewDetail}>{name} id:{id}</button>
 
-      </Card.Text>
-    </Card.Body>
-    </Card>
-</CardGroup>
-        </div>
+  <Col><Card>
+  <Card.Img variant="top" src={img} alt=''/>
+  <Card.Body>
+    <Card.Title>name:{name}   
+     </Card.Title>
+     <p>price:${price}</p>
+     
+    <Card.Text>
+    <button onClick={showReviewDetail}>{name} id:{id}</button>
+
+    </Card.Text>
+  </Card.Body>
+  </Card></Col>
+
+
+  
     );
 };
 
