@@ -3,9 +3,6 @@
     display:grid;
     grid-template-columns: auto,auto,auto;
 }
-
-
-
 .image-review{
     background-color: gray;
     width: 500px;

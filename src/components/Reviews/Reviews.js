@@ -10,7 +10,8 @@ const Reviews = () => {
         .then(data=>setReviews(data));
     },[])
     return (
-        <><p><small>Totall review: {reviews.length}</small></p>
+        <>
+        <p><small>Totall review: {reviews.length}</small></p>
         
             
             <Row md={3}>{

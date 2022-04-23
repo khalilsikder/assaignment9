@@ -12,11 +12,8 @@ const Review = (props) => {
         navigate(path);
     }
 
-
     return (
         
-
-
   <Col><Card>
   <Card.Img variant="top" src={img} alt=''/>
   <Card.Body>
