@@ -11,8 +11,6 @@ const Reviews = () => {
     },[])
     return (
         <div>
-        <p><small>Totall review: {reviews.length}</small></p>
-        
            <div className='review-cart'>
            {
             reviews.map(review=><Review key={review.id} review={review}></Review>)
