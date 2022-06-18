@@ -18,7 +18,7 @@ const Home = () => {
               
             <p>Here are sone fancy laptop available.you can choose any of them.<br/>if you buy one more then get big discount and if buy one get one gift completely free.</p>
             <button className='first-button'>smooth tuch</button>
-            <div className='review'>
+            <div className='home-review'>
                 
                 {
                 reviews.slice(0,3).map(review=><Review key={review.id} review={review}></Review>)
@@ -26,7 +26,8 @@ const Home = () => {
                 
             </div>
             <div>
-                reviewsall
+                <button> reviewsall</button>
+               
             </div>
             </div>
             

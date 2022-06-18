@@ -1,4 +1,8 @@
-.image-iteam{
+.review-cart{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+}
+.review-cart img{
+    width: 250px;
+    margin-left: 50px;
 }

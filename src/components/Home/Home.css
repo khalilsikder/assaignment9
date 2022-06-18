@@ -2,6 +2,7 @@
     grid-template-columns: auto auto auto;
     color:brown;
 }
+.first-div p{font-size:25px;}
 .homepage img{width: 400px;
 height: 350px;}
 
@@ -11,10 +12,20 @@ height: 350px;}
     border-radius: 10px;
 }
 .homepage button:hover{background-color:mediumpurple;}
-.review{
-    width: 200px;
-    height: 200px;
+.home-review{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:5px;
+    margin-top: 200px;
+    margin-left: 100px;
 }
+.home-review img{
+    width: 250px;
+    height: 250px;
+
+}
+    
+
 
 
 

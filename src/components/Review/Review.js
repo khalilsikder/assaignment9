@@ -15,11 +15,11 @@ const Review = (props) => {
     return (
         
   <Col><Card>
-  <Card.Img variant="top" src={img} alt=''/>
+  <Card.Img variant="top" img src={img} alt=''/>
   <Card.Body>
-    <Card.Title>name:{name}   
+    <Card.Title>price:{price}   
      </Card.Title>
-     <p>price:${price}</p>
+     <p>name:{name}</p>
      
     <Card.Text>
     <button onClick={showReviewDetail}>{name} id:{id}</button>

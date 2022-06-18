@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
 import Review from '../Review/Review';
+import './Reviews.css'
 const Reviews = () => {
     const[reviews,setReviews]=useState([])
     console.log(reviews);
@@ -10,15 +10,17 @@ const Reviews = () => {
         .then(data=>setReviews(data));
     },[])
     return (
-        <>
+        <div>
         <p><small>Totall review: {reviews.length}</small></p>
         
-            
-            <Row md={3}>{
-                reviews.map(review=><Review key={review.id} review={review}></Review>)
-            }
-            </Row>
-         </>
+           <div className='review-cart'>
+           {
+            reviews.map(review=><Review key={review.id} review={review}></Review>)
+            }  
+            </div> 
+        
+        
+         </div>
         
     );
 };

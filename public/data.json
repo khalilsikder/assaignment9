@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "img": "https://i.ibb.co/GJkmkKB/pexels-format-1029757.jpg",
-      "price": 55000,
-      "name": "lenovo"
+      "img": "https://i.ibb.co/GCNJxTM/pexels-format-1029757.jpg",
+      "price": "55000",
+      "name":"lenova"
     },
     {
       "id": 2,
