@@ -7,9 +7,9 @@
 .header a{
     text-decoration: none;
     font-size: 25px;
-    color:mediumpurple;
+    color:lawngreen;
     margin-left: 15px;
 }
 .header a:hover{
-    color: coral;
+    color: darkorchid;
 }

@@ -10,10 +10,11 @@
 height: 350px;}
 
 .homepage button{
-    background-color:mediumslateblue;
+    background-color:lawngreen;
+    border: 2px solid orange;
     border-radius: 10px;
 }
-.homepage button:hover{background-color:coral;}
+.homepage button:hover{background-color:darkorchid;}
 .home-review{
     display:grid;
     grid-template-columns: 2fr 1fr;
