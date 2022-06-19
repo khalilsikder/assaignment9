@@ -15,7 +15,7 @@ const Blogs = () => {
         2.What semantic tag?<br/>
         Ans.Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation. For example, a  tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
 
-On the flip side of this equation, tags such as and  are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.Using semantic tags gives you many more hooks for styling your content, too. Perhaps today you prefer to have your code samples display in the default browser style, but tomorrow, you might want to call them out with a gray background color; later still, you might want to define the precise mono-spaced font family or font stack to use for your samples. You can do all of these things easily by using semantic markup and smartly applied CSS.
+        On the flip side of this equation, tags such as and  are not semantic. They define only how the text should look (bold or italic), and don't provide any additional meaning to the markup.Using semantic tags gives you many more hooks for styling your content, too. Perhaps today you prefer to have your code samples display in the default browser style, but tomorrow, you might want to call them out with a gray background color; later still, you might want to define the precise mono-spaced font family or font stack to use for your samples. You can do all of these things easily by using semantic markup and smartly applied CSS.
        </div>
         
     );

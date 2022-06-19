@@ -14,9 +14,9 @@ const Home = () => {
     return (
         <div className='homepage'>
             <div className='first-div'>
-            <h1>World's fancy Laptop</h1>
+            <h1>Laptop collection available</h1>
               
-            <p>Here are sone fancy laptop available.you can choose any of them.<br/>if you buy one more then get big discount and if buy one get one gift completely free.</p>
+            <p>We have some fancy laptop available here.You can choose any of them.<br/>If you buy one more then get big discount and if buy one get one tab completely free.A lot of fency collection are available and price these are less then fifty thousand taka.we have also reuse valuable brand laptop like mac.samsung,acer,lenovo,compact,del,tosiba,walton and so maney china laptops </p>
             <button className='first-button'>smooth tuch</button>
             <div className='home-review'>
                 
