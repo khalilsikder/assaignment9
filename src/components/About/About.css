@@ -1,7 +1,6 @@
-.about{
-    color: gray;
-    font-size: 20px;
+.about-sec {
+    color: olivedrab;
+    font-size: 25px;
     font-style: italic;
-    text-align: center;
     margin: 20px;
 }
